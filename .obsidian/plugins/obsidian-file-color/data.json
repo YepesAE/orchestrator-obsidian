@@ -1,0 +1,56 @@
+{
+  "cascadeColors": false,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "gTyGHL7VfVGANDpAr7vmB",
+      "name": "Red",
+      "value": "#cc0000"
+    },
+    {
+      "id": "yIqYx9BjfRyoCdlIej3Bj",
+      "name": "Green",
+      "value": "#2d8128"
+    },
+    {
+      "id": "L_-cyz7pbwecyRnFWeJkY",
+      "name": "Blue",
+      "value": "#3251ec"
+    },
+    {
+      "id": "MJKhyj2U5Oe92HpWQB55O",
+      "name": "Orange",
+      "value": "#ffaf24"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Web Dev",
+      "color": "gTyGHL7VfVGANDpAr7vmB"
+    },
+    {
+      "path": "Health",
+      "color": "yIqYx9BjfRyoCdlIej3Bj"
+    },
+    {
+      "path": "Creative",
+      "color": "L_-cyz7pbwecyRnFWeJkY"
+    },
+    {
+      "path": "Cybersec",
+      "color": "gTyGHL7VfVGANDpAr7vmB"
+    },
+    {
+      "path": "Desktop Dev",
+      "color": "gTyGHL7VfVGANDpAr7vmB"
+    },
+    {
+      "path": "Game Dev",
+      "color": "gTyGHL7VfVGANDpAr7vmB"
+    },
+    {
+      "path": "References",
+      "color": "L_-cyz7pbwecyRnFWeJkY"
+    }
+  ]
+}

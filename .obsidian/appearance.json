@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Obsidian gruvbox",
+  "accentColor": "",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "left-start-notes"
+  ],
+  "showRibbon": true,
+  "showViewHeader": true
+}

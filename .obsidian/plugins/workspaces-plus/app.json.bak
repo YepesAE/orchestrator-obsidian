@@ -1,0 +1,10 @@
+{
+  "showInlineTitle": false,
+  "readableLineLength": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "spellcheck": false,
+  "smartIndentList": true,
+  "propertiesInDocument": "visible",
+  "promptDelete": false
+}

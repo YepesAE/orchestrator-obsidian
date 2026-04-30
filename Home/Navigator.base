@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Navigator
+    filters:
+      and:
+        - file.hasTag("project")
+    order:
+      - title
+    cardSize: 110
+    image: note.image
+    imageAspectRatio: 0.95
