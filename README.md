@@ -7,6 +7,13 @@ everything organized across 10 top-level domains.
 
 **Obsidian v1.12.7** · **Gruvbox theme** · **20 community plugins** · **6 workspaces**
 
+<img width="1893" height="1029" alt="orchestrator-home-layout" src="https://github.com/user-attachments/assets/35ccca23-c8cf-4ace-a332-2865ddd6e7aa" />
+Orchestrator home layout.
+
+<img width="1918" height="1075" alt="orchestrator-project-layout" src="https://github.com/user-attachments/assets/90825e15-d59c-4294-85cf-75268f5f72c8" />
+Orchestrator project layout.
+
+
 ---
 
 ## Vault Structure
