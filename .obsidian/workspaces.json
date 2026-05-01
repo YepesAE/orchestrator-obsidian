@@ -277,6 +277,9 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "homepage:Open homepage": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "widgets:Add widget": false,
           "omnisearch:Omnisearch": false,
           "obsidian-kanban:Create new board": false,
           "obsidian-excalidraw-plugin:New drawing": false,
@@ -287,13 +290,12 @@
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "bases:Create new base": false,
-          "homepage:Open homepage": false,
           "pexels-banner:🚩 Pixel Banner Menu": false,
           "workspaces:Manage workspace layouts": false
         }
       },
       "active": "3a6307326d13db98",
-      "mtime": "2026-04-30T23:29:16+02:00",
+      "mtime": "2026-05-01T12:46:36+02:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
@@ -304,31 +306,9 @@
         "type": "split",
         "children": [
           {
-            "id": "73494961ff7fed82",
-            "type": "tabs",
-            "dimension": 33.33333333333333,
-            "children": [
-              {
-                "id": "a2b0873a50b17110",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Web Dev/Hola Cafre/Dashboard.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Dashboard"
-                }
-              }
-            ],
-            "stacked": true
-          },
-          {
             "id": "bda4950e817abfef",
             "type": "tabs",
-            "dimension": 38.29333333333334,
+            "dimension": 50.62735257214555,
             "children": [
               {
                 "id": "521672defaeaa7c5",
@@ -337,7 +317,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "Web Dev/Hola Cafre/Wiki.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -350,13 +330,27 @@
           {
             "id": "6eb323c12385f08f",
             "type": "split",
-            "dimension": 28.373333333333335,
+            "dimension": 49.37264742785445,
             "children": [
               {
                 "id": "56455db5fa2c7733",
                 "type": "tabs",
-                "dimension": 59.53703703703703,
+                "dimension": 69.80582524271844,
                 "children": [
+                  {
+                    "id": "b1566e0641d47343",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Web Dev/Hola Cafre/Tasks.md",
+                        "mode": "preview",
+                        "source": true
+                      },
+                      "icon": "lucide-file",
+                      "title": "Tasks"
+                    }
+                  },
                   {
                     "id": "c8033af244a4a658",
                     "type": "leaf",
@@ -368,15 +362,7 @@
                       "icon": "excalidraw-icon",
                       "title": "Draw"
                     }
-                  }
-                ],
-                "stacked": true
-              },
-              {
-                "id": "91838a0d115b39d2",
-                "type": "tabs",
-                "dimension": 40.46296296296296,
-                "children": [
+                  },
                   {
                     "id": "53173027aac71883",
                     "type": "leaf",
@@ -385,13 +371,30 @@
                       "state": {
                         "file": "Web Dev/Hola Cafre/Roadmap.canvas",
                         "viewState": {
-                          "x": -1673.9999999999995,
+                          "x": 1450.8000000000002,
                           "y": 446.4,
                           "zoom": 0
                         }
                       },
                       "icon": "lucide-layout-dashboard",
                       "title": "Roadmap"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "91838a0d115b39d2",
+                "type": "tabs",
+                "dimension": 30.19417475728155,
+                "children": [
+                  {
+                    "id": "0275640f42f8d476",
+                    "type": "leaf",
+                    "state": {
+                      "type": "timer-view",
+                      "state": {},
+                      "icon": "timer",
+                      "title": "Timer"
                     }
                   }
                 ],
@@ -410,7 +413,7 @@
           {
             "id": "f0f7d72f903deeba",
             "type": "tabs",
-            "dimension": 75.98784194528876,
+            "dimension": 66.09442060085837,
             "children": [
               {
                 "id": "ac10f95fddda6fa4",
@@ -457,7 +460,7 @@
           {
             "id": "d6581c6bc61b5b10",
             "type": "tabs",
-            "dimension": 24.012158054711243,
+            "dimension": 33.90557939914162,
             "children": [
               {
                 "id": "b96b24d9133f2b1d",
@@ -473,7 +476,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 291.5,
+        "width": 257.5,
         "collapsed": true
       },
       "right": {
@@ -551,16 +554,17 @@
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "Web Dev/Hola Cafre/Wiki.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline"
+                  "title": "Outline of Wiki"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
             "id": "35835bf4fc137aa5",
@@ -587,6 +591,7 @@
       "left-ribbon": {
         "hiddenItems": {
           "homepage:Open homepage": false,
+          "pomodoro-timer:Toggle timer panel": false,
           "omnisearch:Omnisearch": false,
           "obsidian-kanban:Create new board": false,
           "obsidian-excalidraw-plugin:New drawing": false,
@@ -598,57 +603,34 @@
           "command-palette:Open command palette": false,
           "bases:Create new base": false,
           "pexels-banner:🚩 Pixel Banner Menu": false,
-          "workspaces:Manage workspace layouts": false
+          "workspaces:Manage workspace layouts": false,
+          "widgets:Add widget": false
         }
       },
-      "active": "a2b0873a50b17110",
-      "mtime": "2026-05-01T00:35:38+02:00",
+      "active": "521672defaeaa7c5",
+      "mtime": "2026-05-01T17:56:01+02:00",
       "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "Health"
-        ]
+        "explorerFoldState": []
       }
     },
     "Pexá Studio": {
       "main": {
-        "id": "f88707e2183265aa",
+        "id": "da7e668208e4ea05",
         "type": "split",
         "children": [
           {
-            "id": "27fce9fd87ace5fb",
+            "id": "335979fc651054df",
             "type": "tabs",
-            "dimension": 35.14666666666667,
+            "dimension": 50.62735257214555,
             "children": [
               {
-                "id": "b553dcf299345cbd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Creative/Pexá Studio/Dashboard.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Dashboard"
-                }
-              }
-            ],
-            "stacked": true
-          },
-          {
-            "id": "7a4363c3d9157fee",
-            "type": "tabs",
-            "dimension": 31.52,
-            "children": [
-              {
-                "id": "1f2d68558ae0ed77",
+                "id": "306fa5ca77065911",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "Creative/Pexá Studio/Wiki.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -659,17 +641,31 @@
             "stacked": true
           },
           {
-            "id": "42c43d6f64808205",
+            "id": "24f662bc310f15c9",
             "type": "split",
-            "dimension": 33.33333333333333,
+            "dimension": 49.37264742785445,
             "children": [
               {
-                "id": "1eb1d8887a5b40a1",
+                "id": "d6665b4d699a9621",
                 "type": "tabs",
-                "dimension": 58.51851851851851,
+                "dimension": 69.80582524271844,
                 "children": [
                   {
-                    "id": "d8ccb63c49a41b2a",
+                    "id": "44bd1eef57484c2b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Creative/Pexá Studio/Tasks.md",
+                        "mode": "preview",
+                        "source": true
+                      },
+                      "icon": "lucide-file",
+                      "title": "Tasks"
+                    }
+                  },
+                  {
+                    "id": "9d5e46eaac401258",
                     "type": "leaf",
                     "state": {
                       "type": "excalidraw",
@@ -679,30 +675,39 @@
                       "icon": "excalidraw-icon",
                       "title": "Draw"
                     }
-                  }
-                ],
-                "stacked": true
-              },
-              {
-                "id": "3452ee89f2f15b52",
-                "type": "tabs",
-                "dimension": 41.48148148148148,
-                "children": [
+                  },
                   {
-                    "id": "d23062ee2c0a8907",
+                    "id": "80f9f6dc5879eed7",
                     "type": "leaf",
                     "state": {
                       "type": "canvas",
                       "state": {
                         "file": "Creative/Pexá Studio/Roadmap.canvas",
                         "viewState": {
-                          "x": -1673.9999999999995,
+                          "x": 1450.8000000000002,
                           "y": 446.4,
                           "zoom": 0
                         }
                       },
                       "icon": "lucide-layout-dashboard",
                       "title": "Roadmap"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "3e6de673867616f7",
+                "type": "tabs",
+                "dimension": 30.19417475728155,
+                "children": [
+                  {
+                    "id": "b95c6d4927cae975",
+                    "type": "leaf",
+                    "state": {
+                      "type": "timer-view",
+                      "state": {},
+                      "icon": "timer",
+                      "title": "Timer"
                     }
                   }
                 ],
@@ -715,16 +720,16 @@
         "direction": "vertical"
       },
       "left": {
-        "id": "6082d907d9a2ef12",
+        "id": "1854e4dbdf0cf7cc",
         "type": "split",
         "children": [
           {
-            "id": "9589c3d3f58e0ad3",
+            "id": "356d3a2d61f5be5d",
             "type": "tabs",
-            "dimension": 75.98784194528876,
+            "dimension": 66.09442060085837,
             "children": [
               {
-                "id": "9c2a57467cc1aa04",
+                "id": "522d3d67bc26fff0",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
@@ -737,7 +742,7 @@
                 }
               },
               {
-                "id": "6e278688dadf91be",
+                "id": "79f4ca9e4c989086",
                 "type": "leaf",
                 "state": {
                   "type": "search",
@@ -754,7 +759,7 @@
                 }
               },
               {
-                "id": "1c6fe96acd11bab0",
+                "id": "605c92b27e6fa252",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
@@ -766,12 +771,12 @@
             ]
           },
           {
-            "id": "ce692cd360bffc79",
+            "id": "0a078082ec07d373",
             "type": "tabs",
-            "dimension": 24.012158054711243,
+            "dimension": 33.90557939914162,
             "children": [
               {
-                "id": "45540fe0b601c9c5",
+                "id": "415d445f771b90c7",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -784,20 +789,20 @@
           }
         ],
         "direction": "horizontal",
-        "width": 291.5,
+        "width": 257.5,
         "collapsed": true
       },
       "right": {
-        "id": "e1755a272fd365fd",
+        "id": "2998239cb0d56615",
         "type": "split",
         "children": [
           {
-            "id": "f845c53a6048b713",
+            "id": "d30cc647e7faf4c5",
             "type": "tabs",
             "dimension": 63.883495145631066,
             "children": [
               {
-                "id": "e34e65c49dbc6570",
+                "id": "02c066dc0dbae65f",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
@@ -815,7 +820,7 @@
                 }
               },
               {
-                "id": "301787aa32f793ac",
+                "id": "4cb73521f12d7c3c",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
@@ -828,7 +833,7 @@
                 }
               },
               {
-                "id": "d62f53cf29d9fa42",
+                "id": "c859638fdf8b222a",
                 "type": "leaf",
                 "state": {
                   "type": "tag",
@@ -843,7 +848,7 @@
                 }
               },
               {
-                "id": "f27d058f6dcb8c60",
+                "id": "98128637bda1fc42",
                 "type": "leaf",
                 "state": {
                   "type": "all-properties",
@@ -857,29 +862,30 @@
                 }
               },
               {
-                "id": "b5ef89d177042d03",
+                "id": "def54af4b6efe826",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "Creative/Pexá Studio/Wiki.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline"
+                  "title": "Outline of Wiki"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
-            "id": "e251e906c193ccce",
+            "id": "3dd75ffe0d462f42",
             "type": "tabs",
             "dimension": 36.116504854368934,
             "children": [
               {
-                "id": "a19f7cad5ec5eaf0",
+                "id": "7d2ac51df4e9455f",
                 "type": "leaf",
                 "state": {
                   "type": "calendar",
@@ -898,6 +904,7 @@
       "left-ribbon": {
         "hiddenItems": {
           "homepage:Open homepage": false,
+          "pomodoro-timer:Toggle timer panel": false,
           "omnisearch:Omnisearch": false,
           "obsidian-kanban:Create new board": false,
           "obsidian-excalidraw-plugin:New drawing": false,
@@ -909,17 +916,648 @@
           "command-palette:Open command palette": false,
           "bases:Create new base": false,
           "pexels-banner:🚩 Pixel Banner Menu": false,
-          "workspaces:Manage workspace layouts": false
+          "workspaces:Manage workspace layouts": false,
+          "widgets:Add widget": false
         }
       },
-      "active": "b553dcf299345cbd",
-      "mtime": "2026-05-01T00:36:01+02:00",
+      "active": "306fa5ca77065911",
+      "mtime": "2026-05-01T17:56:18+02:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "Health"
+          "Web Dev"
+        ]
+      }
+    },
+    "Babylon": {
+      "main": {
+        "id": "f0095fd173621508",
+        "type": "split",
+        "children": [
+          {
+            "id": "9b36a38dbf33ed4a",
+            "type": "tabs",
+            "dimension": 50.62735257214555,
+            "children": [
+              {
+                "id": "308e3fbb297c73e8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Web Dev/Babylon/Wiki.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wiki"
+                }
+              }
+            ],
+            "stacked": true
+          },
+          {
+            "id": "86fa46f80e4c5d7c",
+            "type": "split",
+            "dimension": 49.37264742785445,
+            "children": [
+              {
+                "id": "dfc65a8e8270e822",
+                "type": "tabs",
+                "dimension": 69.80582524271844,
+                "children": [
+                  {
+                    "id": "44696426ced83d7f",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Web Dev/Babylon/Tasks.md",
+                        "mode": "preview",
+                        "source": true
+                      },
+                      "icon": "lucide-file",
+                      "title": "Tasks"
+                    }
+                  },
+                  {
+                    "id": "23e0319dfea77f33",
+                    "type": "leaf",
+                    "state": {
+                      "type": "excalidraw",
+                      "state": {
+                        "file": "Web Dev/Babylon/Draw.md"
+                      },
+                      "icon": "excalidraw-icon",
+                      "title": "Draw"
+                    }
+                  },
+                  {
+                    "id": "02e746c926bd7c26",
+                    "type": "leaf",
+                    "state": {
+                      "type": "canvas",
+                      "state": {
+                        "file": "Web Dev/Babylon/Roadmap.canvas",
+                        "viewState": {
+                          "x": 1450.8000000000002,
+                          "y": 446.4,
+                          "zoom": 0
+                        }
+                      },
+                      "icon": "lucide-layout-dashboard",
+                      "title": "Roadmap"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2ef0b32e0b638466",
+                "type": "tabs",
+                "dimension": 30.19417475728155,
+                "children": [
+                  {
+                    "id": "df81d1799210199b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "timer-view",
+                      "state": {},
+                      "icon": "timer",
+                      "title": "Timer"
+                    }
+                  }
+                ],
+                "stacked": true
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "2b1eb4be2e06e84d",
+        "type": "split",
+        "children": [
+          {
+            "id": "97fcc249b1f23452",
+            "type": "tabs",
+            "dimension": 66.09442060085837,
+            "children": [
+              {
+                "id": "837f8e258d9051de",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d91732ff5df9ea3f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "a667b325376a31a3",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e25ae7b69626f0fb",
+            "type": "tabs",
+            "dimension": 33.90557939914162,
+            "children": [
+              {
+                "id": "31d355b898a941dd",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 257.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "ee7ebcc841a38aff",
+        "type": "split",
+        "children": [
+          {
+            "id": "41d623b109cf4733",
+            "type": "tabs",
+            "dimension": 63.883495145631066,
+            "children": [
+              {
+                "id": "daf3b0dfbc9b5fba",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "b591d5b3aa6d7dd2",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "5ac698b119e845bc",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "5f0218d2a5a23773",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "bf2fb4a600998922",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Web Dev/Babylon/Wiki.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Wiki"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "63725a2ee67886bc",
+            "type": "tabs",
+            "dimension": 36.116504854368934,
+            "children": [
+              {
+                "id": "18a26cf3cb040033",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "daily-notes:Open today's daily note": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "pexels-banner:🚩 Pixel Banner Menu": false,
+          "workspaces:Manage workspace layouts": false,
+          "widgets:Add widget": false
+        }
+      },
+      "active": "308e3fbb297c73e8",
+      "mtime": "2026-05-01T17:56:44+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Web Dev"
+        ]
+      }
+    },
+    "Escalada": {
+      "main": {
+        "id": "d0aaee2bffd6b4e2",
+        "type": "split",
+        "children": [
+          {
+            "id": "5889abdcd80a492b",
+            "type": "tabs",
+            "dimension": 50.62735257214555,
+            "children": [
+              {
+                "id": "0a881e96ffa8b70d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Health/Escalada/Wiki.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wiki"
+                }
+              }
+            ],
+            "stacked": true
+          },
+          {
+            "id": "0eed01e553f52d44",
+            "type": "split",
+            "dimension": 49.37264742785445,
+            "children": [
+              {
+                "id": "df0992afbd756c3a",
+                "type": "tabs",
+                "dimension": 69.80582524271844,
+                "children": [
+                  {
+                    "id": "5dcf0c4201084e6c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Health/Escalada/Tasks.md",
+                        "mode": "preview",
+                        "source": true
+                      },
+                      "icon": "lucide-file",
+                      "title": "Tasks"
+                    }
+                  },
+                  {
+                    "id": "76c54e8b9363b99a",
+                    "type": "leaf",
+                    "state": {
+                      "type": "excalidraw",
+                      "state": {
+                        "file": "Health/Escalada/Draw.md"
+                      },
+                      "icon": "excalidraw-icon",
+                      "title": "Draw"
+                    }
+                  },
+                  {
+                    "id": "0fd864d863a3bf49",
+                    "type": "leaf",
+                    "state": {
+                      "type": "canvas",
+                      "state": {
+                        "file": "Health/Escalada/Roadmap.canvas",
+                        "viewState": {
+                          "x": 1450.8000000000002,
+                          "y": 446.4,
+                          "zoom": 0
+                        }
+                      },
+                      "icon": "lucide-layout-dashboard",
+                      "title": "Roadmap"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "6c184eb3885f2b8d",
+                "type": "tabs",
+                "dimension": 30.19417475728155,
+                "children": [
+                  {
+                    "id": "50bcd73c9463d630",
+                    "type": "leaf",
+                    "state": {
+                      "type": "timer-view",
+                      "state": {},
+                      "icon": "timer",
+                      "title": "Timer"
+                    }
+                  }
+                ],
+                "stacked": true
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "998c377423aaabc3",
+        "type": "split",
+        "children": [
+          {
+            "id": "66a6ccecaa10dc4a",
+            "type": "tabs",
+            "dimension": 66.09442060085837,
+            "children": [
+              {
+                "id": "4546d0f647b18f8d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d74126b40abe338f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7b8906022160caef",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3efd0cf46bbc1405",
+            "type": "tabs",
+            "dimension": 33.90557939914162,
+            "children": [
+              {
+                "id": "7b0a27c9e7e47d19",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 257.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "0a6f5b5589d073aa",
+        "type": "split",
+        "children": [
+          {
+            "id": "5f2f34eebcc578ce",
+            "type": "tabs",
+            "dimension": 63.883495145631066,
+            "children": [
+              {
+                "id": "3f2349117a7b1d45",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "002e44e75183751b",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "30f508b3dee4a991",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "ea27f5c0405f8703",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "39a2d99cbff6846b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Health/Escalada/Wiki.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Wiki"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "a862b3f42979524b",
+            "type": "tabs",
+            "dimension": 36.116504854368934,
+            "children": [
+              {
+                "id": "6166bbae8c22ba74",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "daily-notes:Open today's daily note": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "pexels-banner:🚩 Pixel Banner Menu": false,
+          "workspaces:Manage workspace layouts": false,
+          "widgets:Add widget": false
+        }
+      },
+      "active": "0a881e96ffa8b70d",
+      "mtime": "2026-05-01T17:56:32+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Web Dev"
         ]
       }
     }
   },
-  "active": "Pexá Studio"
+  "active": "Home"
 }

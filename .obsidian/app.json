@@ -5,6 +5,8 @@
   "foldIndent": true,
   "spellcheck": false,
   "smartIndentList": true,
-  "propertiesInDocument": "visible",
-  "promptDelete": false
+  "propertiesInDocument": "hidden",
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "livePreview": false
 }

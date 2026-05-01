@@ -10,8 +10,15 @@
     "highTextContrast": false
   },
   "knownTags": {
+    "babylon": 8,
+    "escalada": 9,
     "excalidraw": 2,
-    "project": 1
+    "hola-cafre": 5,
+    "pexa-studio": 10,
+    "project": 1,
+    "task": 4,
+    "tasks": 6,
+    "user-story": 11
   },
   "tagColors": {},
   "_version": 4

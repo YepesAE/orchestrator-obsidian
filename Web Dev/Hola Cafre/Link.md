@@ -1,10 +1,10 @@
 ---
 title: Hola Cafre
-color: "#cc241d"
+color: "#458588"
 tags:
   - Project
-image: "[[folder-gruvbox-material-blue-open.svg]]"
-uri: "obsidian://adv-uri?vault=Orchestrator&commandid=workspace%3Aload&uid=Project%20Layout&filepath=Hola%20Cafre%2FDashboard&filepath=Hola%20Cafre%2FDraw&filepath=Hola%20Cafre%2FOverview&filepath=Hola%20Cafre%2FRoadmap&filepath=Hola%20Cafre%2FWiki"
+image: "[[folder-gruvbox-original-blue.svg]]"
+uri: "obsidian://adv-uri?vault=Orchestrator&commandid=workspace%3Aload&uid=Hola%20Cafre&filepath=Web%20Dev%2FHola%20Cafre%2FTasks&filepath=Web%20Dev%2FHola%20Cafre%2FDraw&filepath=Web%20Dev%2FHola%20Cafre%2FRoadmap&filepath=Web%20Dev%2FHola%20Cafre%2FWiki"
 ---
 
 ```dataviewjs

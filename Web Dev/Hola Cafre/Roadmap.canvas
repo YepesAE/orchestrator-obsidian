@@ -1,6 +1,11 @@
 {
-	"nodes":[],
-	"edges":[],
+	"nodes":[
+		{"id":"6fc7468c2e7abd8b","x":-160,"y":-60,"width":250,"height":60,"type":"text","text":"hola\n"},
+		{"id":"d63b4a5c659e8e30","x":-13,"y":82,"width":250,"height":60,"type":"text","text":"adios\n"}
+	],
+	"edges":[
+		{"id":"ebe69339e36e55bc","fromNode":"6fc7468c2e7abd8b","fromSide":"right","toNode":"d63b4a5c659e8e30","toSide":"left"}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{}

@@ -1,97 +1,87 @@
 {
   "main": {
-    "id": "f88707e2183265aa",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "27fce9fd87ace5fb",
-        "type": "tabs",
-        "dimension": 35.14666666666667,
-        "children": [
-          {
-            "id": "b553dcf299345cbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creative/Pexá Studio/Dashboard.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dashboard"
-            }
-          }
-        ],
-        "stacked": true
-      },
-      {
-        "id": "7a4363c3d9157fee",
-        "type": "tabs",
-        "dimension": 31.52,
-        "children": [
-          {
-            "id": "1f2d68558ae0ed77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creative/Pexá Studio/Wiki.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wiki"
-            }
-          }
-        ],
-        "stacked": true
-      },
-      {
-        "id": "42c43d6f64808205",
+        "id": "9e40ec35732e6f13",
         "type": "split",
-        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "1eb1d8887a5b40a1",
-            "type": "tabs",
-            "dimension": 58.51851851851851,
+            "id": "5cf40447bbcec555",
+            "type": "split",
+            "dimension": 67.66990291262135,
             "children": [
               {
-                "id": "d8ccb63c49a41b2a",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Creative/Pexá Studio/Draw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Draw"
-                }
+                "id": "6943c8d1193cac2c",
+                "type": "tabs",
+                "dimension": 35.78125,
+                "children": [
+                  {
+                    "id": "3a6307326d13db98",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Home/Welcome to Orchestrator.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Welcome to Orchestrator"
+                    }
+                  }
+                ],
+                "stacked": true
+              },
+              {
+                "id": "02da4fb5b27b0627",
+                "type": "tabs",
+                "dimension": 64.21875,
+                "children": [
+                  {
+                    "id": "a4f38f9548ed6351",
+                    "type": "leaf",
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "Home/Navigator.base",
+                        "viewName": "Navigator"
+                      },
+                      "icon": "lucide-layout-grid",
+                      "title": "Navigator"
+                    }
+                  }
+                ],
+                "stacked": true
               }
             ],
-            "stacked": true
+            "direction": "vertical"
           },
           {
-            "id": "3452ee89f2f15b52",
+            "id": "aeb0c67221dea8f2",
             "type": "tabs",
-            "dimension": 41.48148148148148,
+            "dimension": 32.33009708737864,
             "children": [
               {
-                "id": "d23062ee2c0a8907",
+                "id": "eb7b550932660be7",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
+                  "type": "kanban",
                   "state": {
-                    "file": "Creative/Pexá Studio/Roadmap.canvas",
-                    "viewState": {
-                      "x": -1673.9999999999995,
-                      "y": 446.4,
-                      "zoom": 0
+                    "file": "Home/Kanban.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": [
+                        false,
+                        false,
+                        false,
+                        false
+                      ]
                     }
                   },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "Roadmap"
+                  "icon": "lucide-trello",
+                  "title": "Kanban"
                 }
               }
             ],
@@ -104,16 +94,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6082d907d9a2ef12",
+    "id": "388a4c527fe6972b",
     "type": "split",
     "children": [
       {
-        "id": "9589c3d3f58e0ad3",
+        "id": "f0f7d72f903deeba",
         "type": "tabs",
         "dimension": 75.98784194528876,
         "children": [
           {
-            "id": "9c2a57467cc1aa04",
+            "id": "ac10f95fddda6fa4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -126,7 +116,7 @@
             }
           },
           {
-            "id": "6e278688dadf91be",
+            "id": "c34bd0de45cbaf79",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -143,7 +133,7 @@
             }
           },
           {
-            "id": "1c6fe96acd11bab0",
+            "id": "77925c00dd969efd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -155,12 +145,12 @@
         ]
       },
       {
-        "id": "ce692cd360bffc79",
+        "id": "d6581c6bc61b5b10",
         "type": "tabs",
         "dimension": 24.012158054711243,
         "children": [
           {
-            "id": "45540fe0b601c9c5",
+            "id": "b96b24d9133f2b1d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -173,20 +163,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
-    "id": "e1755a272fd365fd",
+    "id": "fb022c5d60e36db5",
     "type": "split",
     "children": [
       {
-        "id": "f845c53a6048b713",
+        "id": "7e388fa78f9aa0c5",
         "type": "tabs",
         "dimension": 63.883495145631066,
         "children": [
           {
-            "id": "e34e65c49dbc6570",
+            "id": "66cb12d2334eb9bd",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -204,7 +194,7 @@
             }
           },
           {
-            "id": "301787aa32f793ac",
+            "id": "238944bb5d74c313",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -217,7 +207,7 @@
             }
           },
           {
-            "id": "d62f53cf29d9fa42",
+            "id": "d095fab3d7b6ddea",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -232,7 +222,7 @@
             }
           },
           {
-            "id": "f27d058f6dcb8c60",
+            "id": "4be10a6301d52421",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -246,7 +236,7 @@
             }
           },
           {
-            "id": "b5ef89d177042d03",
+            "id": "6ed605cfd777102f",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -263,12 +253,12 @@
         "currentTab": 2
       },
       {
-        "id": "e251e906c193ccce",
+        "id": "35835bf4fc137aa5",
         "type": "tabs",
         "dimension": 36.116504854368934,
         "children": [
           {
-            "id": "a19f7cad5ec5eaf0",
+            "id": "22b0050ce39242d1",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -281,12 +271,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "homepage:Open homepage": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "widgets:Add widget": false,
       "omnisearch:Omnisearch": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -301,41 +292,49 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b553dcf299345cbd",
+  "active": "3a6307326d13db98",
   "lastOpenFiles": [
-    "README.md",
-    "Creative/Pexá Studio/Draw.md",
-    "Creative/Pexá Studio/Link.md",
-    "Home/Navigator.base",
+    "Home/Kanban.md",
     "Home/Welcome to Orchestrator.md",
-    "Web Dev/Hola Cafre/Dashboard.md",
+    "Web Dev/Hola Cafre/Tasks.md",
+    "Web Dev/Hola Cafre/Tasks/Web Design.md",
     "Web Dev/Hola Cafre/Draw.md",
     "Web Dev/Hola Cafre/Wiki.md",
     "Web Dev/Hola Cafre/Link.md",
+    "Home/Navigator.base",
     "Creative/Pexá Studio/Wiki.md",
-    "Creative/Pexá Studio/Dashboard.md",
-    "Creative/Pexá Studio/Roadmap.canvas",
-    "Home/Kanban.md",
-    "Creative/Pexá Studio",
-    "Untitled Kanban.md",
-    "DIY/Overview.md",
-    "DIY",
-    "Home/Overview.md",
-    "Health/Overview.md",
-    "Creative/Overview.md",
-    "Game Dev/Overview.md",
-    "Desktop Dev/Overview.md",
-    "Untitled.md",
+    "Creative/Pexá Studio/Link.md",
+    "Creative/Pexá Studio/Tasks.md",
+    "Web Dev/Babylon/Wiki.md",
+    "Web Dev/Babylon/Link.md",
+    "Health/Escalada/Wiki.md",
+    "Health/Escalada/Link.md",
+    "Health/Escalada/Tasks.md",
+    "Health/Escalada/Tasks/Main.md",
+    "Creative/Pexá Studio/Tasks/Main.md",
+    "Web Dev/Babylon/Tasks.md",
+    "Web Dev/Babylon/Tasks/Main.md",
+    "Health/Escalada/Tasks",
+    "Creative/Pexá Studio/Tasks",
+    "Web Dev/Babylon/Tasks",
     "Web Dev/Hola Cafre/Roadmap.canvas",
-    "Web Dev/Hola Cafre/Drawing 2026-04-30 18.47.27.excalidraw.md",
+    "Creative/Pexá Studio/Draw.md",
+    "Web Dev/Hola Cafre/Tasks/Research.md",
+    "Web Dev/Hola Cafre/Tasks/Evaluate.md",
+    "Creative/Pexá Studio/Wiki/Setup.md",
+    "Creative/Pexá Studio/Wiki/Architecture.md",
+    "Web Dev/Hola Cafre/Tasks/Quality.md",
+    "Web Dev/Hola Cafre/Tasks/Wireframes.md",
+    "Web Dev/Hola Cafre/Tasks",
+    "Creative/Pexá Studio/Wiki",
+    "Health/Escalada/Wiki",
+    "Web Dev/Babylon/Wiki",
     "Web Dev/Hola Cafre/Wiki",
-    "Untitled Kanban 1.md",
-    "Home/Index.md",
-    "References/Index.md",
-    "Web Dev/Index.md",
-    "Web Dev/Hola Cafre",
-    "Creative/Index.md",
-    "Desktop Dev/Index.md",
+    "Web Dev/BabylonUI/Roadmap.canvas",
+    "Web Dev/BabylonUI",
+    "Health/Escalada/Roadmap.canvas",
+    "Web Dev/Babylon/Roadmap.canvas",
+    "Creative/Pexá Studio/Roadmap.canvas",
     "Assets/folder-images/folder-gruvbox-material-aqua-android.svg",
     "Assets/folder-images/folder-gruvbox-material-aqua-mega.svg",
     "Assets/folder-images/folder-gruvbox-material-aqua-vbox.svg",
@@ -346,12 +345,7 @@
     "Assets/folder-images/user-gruvbox-original-yellow-home.svg",
     "Assets/folder-images/user-gruvbox-original-yellow-desktop.svg",
     "Assets/folder-images/user-gruvbox-original-red-home-open.svg",
-    "Assets/folder-images/gruvbox-folders",
-    "Assets/folder-images",
-    "Assets/pixel-banner-images",
     "Home/Canvas.canvas",
-    "Home",
-    "Assets",
     "Home.canvas"
   ]
 }

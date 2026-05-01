@@ -1,16 +1,16 @@
 ---
-banner: Assets/pixel-banner-images/WeeklyBanner1.gif
+banner: Assets/pixel-banner-images/SaturdayBanner.gif
 banner-height: 360
 content-start: 291
 ---
-# Pexá Studio — Wiki
+# Escalada — Wiki
 
 ```widgets
 type: clock
 ```
 ## Introduction
 
-A creative studio for design, branding, and visual projects. [You will edit this later.]
+Climbing and outdoor project tracker. [You will edit this later.]
 
 ## Wiki Pages
 

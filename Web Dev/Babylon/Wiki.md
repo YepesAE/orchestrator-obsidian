@@ -1,16 +1,16 @@
 ---
-banner: Assets/pixel-banner-images/WeeklyBanner1.gif
+banner: Assets/pixel-banner-images/DashboardBanner.gif
 banner-height: 360
 content-start: 291
 ---
-# Pexá Studio — Wiki
+# Babylon — Wiki
 
 ```widgets
 type: clock
 ```
 ## Introduction
 
-A creative studio for design, branding, and visual projects. [You will edit this later.]
+Web project under development. [You will edit this later.]
 
 ## Wiki Pages
 
